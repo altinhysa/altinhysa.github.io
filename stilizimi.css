@@ -1,0 +1,2139 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Mitr:wght@200&family=Work+Sans:wght@500&display=swap');
+
+:root {
+    --teksti-kuq: #e12454;
+    --info-hiri: #f4f9fc;
+    --info-tekst: #898d8f;
+    --buton-gjelbert: #72a243;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.faqja {
+    
+    width: 100%;
+}
+
+.informata {
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: var(--info-hiri);
+}
+
+.informata-permbajtja {
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.anesoret {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.permbajtja {
+    display: inline-flex;
+    padding-left: 17px;
+}
+
+.permbajtja p {
+    display: flex;
+    align-content: flex-end;
+    font-family: 'Mitr', sans-serif;
+    color: var(--info-tekst);
+    font-weight: bold;
+    max-width: 270px;
+    padding-left: 5px;
+}
+
+.permbajtja i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i.far{
+    color: var(--teksti-kuq);
+    font-size: 15px;
+}
+
+.fa-envelope-open {
+    padding-left: 25px;
+}
+
+.permbajtja-majtas {
+    width: 100%;
+}
+
+.permbajtja-djathtas {
+    /*display: inline;
+    padding-left: 440px;*/
+    display: inline-flex;
+    
+    
+}
+
+.permbajtja-djathtas i.fab {
+    background: white;
+    color: var(--info-tekst);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 13px;
+    vertical-align: middle;
+    padding: 10px;
+    box-shadow: 0 0 3px 0.3px var(--info-tekst);
+    transition: 0.5s;
+}
+
+.permbajtja-djathtas i.fab:hover {
+    background: var(--info-tekst);
+    color: white;
+}
+.permbajtja-djathtas i.fab:nth-child(2), i.fab:nth-child(3) {
+    margin-left: 10px;
+    
+}
+
+.navigimi {
+    width: 100%;
+    
+    max-height: 700px;
+    height: auto;
+    background: white;
+    
+    
+}
+
+.navigimi-permbajtja {
+    width: 100%;
+    max-width: 1500px;
+    max-height: 500px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ndryshoNgjyren .fa-adjust {
+    font-size: 25px;
+    color: black;
+}
+
+.logo {
+    width: 15%;
+    padding: 17px;
+    display: inline-flex;
+}
+
+.logo i.fa-hive {
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--teksti-kuq);
+}
+.logo span {
+    padding-left: 5px;
+}
+
+.bllok-permbajtje {
+    padding-left: 5px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bllok-permbajtje span:first-child{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bllok-permbajtje span:last-child {
+    font-family: 'Mitr', sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    color: var(--info-tekst)
+}
+
+.menyt-permbajtje {
+    width: 75%;
+    height: auto;
+    max-height: 700px;
+    
+    
+}
+
+.menyt {
+    
+    display: inline-flex;
+    font-family: 'Mitr', sans-serif;
+    position: relative;
+    padding-left: 10px;
+    
+    
+}
+
+.menyt a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.menyt a:hover {
+    border-top: 2px solid black;
+    
+}
+.leshimi {
+    width: 100%;
+    margin-top: 20px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 12px 12px;
+    
+}
+
+.menyt:hover .leshimi {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.leshimi a{
+    transition: 0.3s;
+}
+
+.leshimi a:hover{
+    border-top: none;
+    color: var(--teksti-kuq);
+    font-weight: bold;
+}
+.menyt:first-child a{
+    margin-left: ;
+}
+
+.logo2 {
+    width: 10%;
+    display: inline-flex;
+    justify-content: flex-end;
+    justify-self: flex-end;
+    justify-items: flex-end;
+}
+
+.logo2 i.fa-phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.logo2 .bllok-permbajtje span:first-child {
+    font-weight: bold;
+    font-size: 10px;
+    color: var(--info-tekst);
+    font-family: 'Mitr', sans-serif;
+}
+
+.faqja-kryesore {
+    width: 100%;
+    height: 700px;
+    background-image: url(fotografit/ballina-kryesore.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+}
+
+
+#e-vogel {
+    font-size: 17px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.faqja-kryesore h1 {
+    padding-top: 0;
+    max-width: 900px;
+    max-height: 80px;
+    text-align: center;
+    font-size: 40px;
+    
+    text-transform: uppercase;
+    animation-name: majtas;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.faqja-kryesore p{
+    font-size: 12px;
+    padding-top: 20px;
+    font-weight: 100;
+    animation-name: djathas;
+    animation-duration: 2s;
+    
+    animation-iteration-count: 1;
+    
+}
+
+.faqja-kryesore {
+    font-size: 15px;
+}
+
+.butonat {
+    position: relative;
+    margin-top: 40px;
+    animation-name: posht;
+    animation-duration: 2s;
+    
+    animation-iteration-count: 1;
+}
+.butonat button{
+    border: none;
+    background-color: var(--teksti-kuq);
+    padding: 15px 35px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 6px;
+    transition: 0.2s ease-in;
+}
+
+
+.butonat button:hover {
+    background-color: white;
+    color: var(--teksti-kuq);
+    
+}
+
+
+.butonat a{
+    margin-left: 30px;
+    text-decoration: underline;
+    color: white;
+    transition: 0.2s ease-out;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.butonat a:hover {
+    color: var(--teksti-kuq);
+    font-size: 20px;
+}
+
+.faqja-dyt {
+    width: 100%;
+    height: auto;
+    max-height: 2500px;
+    background-color: #f7f8fa;
+    position: relative;
+}
+
+.faqja-dyt-permbajtja{
+    overflow: hidden;
+    width: 100%;
+    background-color: white;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1.3fr 1.1fr 0.7fr 0fr;
+    grid-template-rows: 0.3fr 1.7fr 0fr;
+    gap: 0px 10px;
+    grid-template-areas:
+        "foto bllok bllok ."
+        "foto aplikimi aplikimi ."
+        ". . . .";
+    position: relative;
+    bottom: 80px;
+    
+    
+}
+.foto { grid-area: foto; }
+.bllok { grid-area: bllok; }
+.aplikimi { grid-area: aplikimi; }
+
+.foto {
+    background: url(fotografit/foto-dy.jpg);
+    background-size: cover;
+    
+}
+
+.bllok {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0 50px;
+    margin-top: 50px;
+}
+
+.bllok p:first-child {
+    color: var(--info-tekst);
+    font-size: 15px;
+    font-weight: bold;
+}
+.bllok p:last-child {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.aplikimi {
+    margin: 0 50px;
+    width: 100%;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+.rresht-aplikimi {
+    width: 80%;
+    display: inline-flex;
+    justify-content: space-between;
+    
+}
+.bllok-emri {
+    display: inline-flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    
+}
+
+.bllok-emri #emri {
+    background: url(fotografit/download.png);
+    background-size: 20px;
+    background-position: 190px 20px;
+    background-repeat: no-repeat;
+    background-color: var(--info-hiri);
+}
+
+.bllok-emri #email {
+    background: url(fotografit/email.png);
+    background-size: 20px;
+    background-position: 190px 20px;
+    background-repeat: no-repeat;
+    background-color: var(--info-hiri);
+}
+
+.bllok-emri #qyteti {
+    background: url(fotografit/qyteti.png);
+    background-size: 20px;
+    background-position: 190px 20px;
+    background-repeat: no-repeat;
+    background-color: var(--info-hiri);
+}
+
+.bllok-emri input[type=text], .bllok-emri select{
+    margin-top: 20px;
+    background-color: var(--info-hiri);
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    overflow: hidden;
+}
+
+.bllok-emri select {
+    width: 240px;
+}
+
+option {
+    width: 240px;
+    padding: 20px;
+}
+
+.bllok-emri label{
+    margin-top: 20px;
+}
+
+.bllok-aplikimi .butonat button{
+    margin-bottom: 60px;
+    width: 200px;
+}
+
+.faqja-dyt-permbajtja-dy {
+    width: 100%;
+    height: auto;
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+    padding-bottom: 100px;
+    
+    
+}
+
+.rresht-permbajtja {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.rresht-permbajtja p {
+    width: 100%;
+    overflow-wrap: break-word;
+}
+/*.foto2 img{
+    width: 100%;
+    margin-top: 30px;
+    height: auto;
+}*/
+
+.foto2 {
+    width: 100%;
+    display: flex;
+    
+}
+
+.ikona-luaj i {
+    font-size: 100px;
+    color: white;   
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 14%;
+   
+}
+
+.rresht-permbajtja:last-child {
+    
+    margin-left: 2%;
+    
+}
+
+.permbajtja2 {
+    width: 82%;
+    height: 60%;
+    background-color: white;
+    margin-top: 80px;
+    padding: 60px 30px 20px 55px;
+    
+}
+
+.butoni-gjelbert {
+    margin-top: 50px;
+}
+
+.butoni-gjelbert a{
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 20px 35px;
+    background-color: green;
+    transition: 0.2s ease-in-out;
+}
+
+.butoni-gjelbert a:hover {
+    background-color: white;
+    color: green;
+}
+
+/*KETU PERFUNDON FAQJA DYTE - RRETH NESH*/
+
+
+/*Fillimi faqes per sherbimet*/
+
+.sherbimet {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 800px;
+    background: #ededed;
+}
+
+.sherbimet-njoftim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    font-family: 'Work Sans', sans-serif;
+}
+
+.sherbimet-njoftim p {
+    margin-top: 100px;
+    font-weight: bold;
+    color: var(--info-tekst);
+}
+
+.sherbimet-njoftim h1{
+    text-align: center;
+    width: 600px;
+    font-weight: bold;
+
+}
+
+.sherbimet-kolonat {
+    display: flex;
+    overflow: scroll;
+}
+
+.sherbimet-kolonat::-webkit-scrollbar {
+    display: none;
+}
+
+.sherbimet-kolonat {
+    -ms-overflow-style: none; /* IE and Edge */
+     scrollbar-width: none; /* Firefox */
+}
+
+
+.sherbimet-kolonat2 {
+    width: 3000px;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.kolona-vazhdo-majtas {
+    width: 8%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kolona-vazhdo-majtas a {
+    text-decoration: none;
+    color: gray;
+}
+
+.kolona-vazhdo-majtas i {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.15s ease-in;
+}
+
+
+.kolona-vazhdo-majtas i:hover {
+    background-color: gray;
+    color: white;
+    
+}
+.kolona-informative {
+    margin: 70px 0px 0px 20px;
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    padding: 30px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.kolona-informative .fas{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    border-radius: 50%;
+    box-shadow: 0px 5px 26px 2px rgba(0,0,0,0.34);
+    font-size: 25px;
+}
+
+.kolona-informative h3{
+    padding-top: 20px;
+}
+
+.kolona-informative p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.kolona-informative a{
+    padding-top: 30px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    transition: 0.2s ease-in;
+    
+}
+
+.kolona-informative a:hover {
+    color: green;
+    border-bottom: 1px solid green;
+}
+
+.sherbimet-rreth {
+    width: 100%;
+    margin-top: 4rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sherbimet-rreth i {
+    color: red;
+    font-size: 19px;
+    margin-left: 5px;
+}
+
+.sherbimet-rreth i:first-child:hover {
+    color: white;
+    
+}
+
+.sherbimet-rreth i:last-child:hover {
+    background: red;
+    border-radius: 50%;
+}
+
+/* MBARIMI I PJESES SHERBIMET */
+
+/* Fillimi i i faqes se 4*/
+
+.faqja-4 {
+    width: 100%;
+    height: 950px;
+    
+}
+
+
+.pozicionimi {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faqja-4-bllok {
+    width: 50%;
+}
+
+.faqja-4-foto-njoftimi {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 20px;
+    
+}
+
+.faqja-4-foto {
+    max-height: 260px;
+    width: 65%;
+   
+    
+}
+
+.faqja-4-foto img{
+    width: 100%;
+    max-width: 400px;
+}
+
+
+
+.faqja-4-njoftimi2 {
+    width: 35%;
+    background-color: red;
+    position: relative;
+    border-radius: 7px;
+    max-width: 390px;
+    height: 230px;
+    top: 40px;
+    padding: 40px;
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.faqja-4-njoftimi2 h1{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.faqja-4-njoftimi2 p {
+    overflow-wrap: break-word;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+
+.faqja-4-njoftimi2 a {
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    border-radius: 7px;
+    color: black;
+    padding: 20px 15px;
+    transition: 0.2s ease-out;
+}
+
+.faqja-4-njoftimi2 a:hover {
+    background-color: green;
+    color: white;
+}
+
+.faqja-4-prapavija img{
+    width: 100%;
+    height: auto;
+}
+
+.faqja-4-bllok:last-child {
+    margin-left: 10%;
+    
+}
+
+.faqja-4-djathtas-pershkrimi{
+    font-family: 'Work Sans', sans-serif;
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid gray; 
+}
+
+.faqja-4-djathtas-pershkrimi p.hiri {
+    color: gray;
+}
+
+.faqja-4-djathtas-pershkrimi p{
+    width: 100%;
+    overflow-wrap: break-word;
+    font-weight: bold;
+}
+
+.faqja-4-djathtas-pershkrimi .e-trashe {
+    margin-top: 4rem;
+}
+
+.faqja-4-djathtas-pershkrimi p:last-child{
+    font-weight: normal;
+}
+
+
+.faqja-4-djathtas-statistika {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 6rem;
+    
+}
+
+
+
+.statistika h1 {
+    font-size: 2.6rem;
+    color: green;
+}
+
+.statistika h5 {
+    margin-top: -30px;
+}
+
+.statistika p {
+    width: 100%;
+    
+}
+
+.statistika {
+    font-family: 'Work Sans', sans-serif;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.statistika:last-child {
+    padding-left: 3rem;
+}
+
+
+
+/*MBARIMI FAQES 4*/
+
+/*FILLIMI FAQES 5*/
+
+.faqja-5 {
+    width: 100%;
+    height: 900px;
+    background-color: #223645;
+}
+
+.faqja-5-titulli {
+    width: 100%;
+    height: 25%;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    
+}
+
+.faqja-5-titulli h1{
+    width: 400px;
+    text-align: center;
+}
+
+.faqja-5-permbajtja {
+    width: 100%;
+    height: 75%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.faqja-5-kolonat {
+    width: 30%;
+    margin-top: 50px;
+    
+}
+
+.faqja-5-klientet {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.faqja-5-klientet img {
+    border-radius: 50%;
+    object-fit: cover;
+    transition: 0.2s ease-out;
+}
+
+.faqja-5-klientet img:hover {
+    border: 3px solid gray;
+    padding: 5px;
+}
+
+.faqja-5-klientet-emri {
+    margin-left: 20px;
+    
+}
+
+.faqja-5-klientet-emri h3 {
+    font-size: 1.4rem;
+}
+
+.faqja-5-klientet-emri h5 {
+    margin-top: -13px;
+}
+
+.faqja-5-klientet-pershkrimi p {
+    width: 90%;
+    padding-top: 20px;
+    overflow-wrap: break-word;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.faqja-5-yjet {
+    display: inline-flex;
+    color: yellow;
+    
+    width: 10px;
+}
+
+.faqja-5-yjet i{
+    margin-right: 10px;
+}
+
+.faqja-5-rreth {
+    margin-top: 60px;
+}
+
+.faqja-5-rreth i {
+    font-size: 20px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.faqja-5-rreth i:hover {
+    background-color: black;
+    color: black
+}
+
+.faqja-5-fotografit {
+    width: 33%;
+    margin-top: 150px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.faqja-5-fotografit img {
+    transition: 0.2s ease-out;
+}
+
+
+.faqja-5-fotografit img:hover {
+    border: 3px solid gray;
+    padding: 5px;
+}
+
+.foto-lart-djathtas img{
+    border-radius: 50%;
+    position: relative;
+    top: 45px;
+    left: 100px;
+    object-fit: cover;
+}
+
+.foto-lart-majtas img{
+    border-radius: 50%;
+    position: relative;
+    bottom: 300px;
+    right: 70px;
+    background-color: white;
+    object-fit: cover;
+}
+
+
+
+.foto-qender img{
+    border-radius: 50%;
+    position: relative;
+    bottom: 80px;
+    object-fit: cover;
+}
+
+.foto-posht-djathtas img {
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    bottom: 0px;
+    top: 120px;
+    left: 100px;
+    object-fit: cover;
+    
+}
+
+.foto-posht-majtas img {
+    border-radius: 50%;
+    bottom: 190px;
+    right: 75px;
+    position: relative;
+    object-fit: cover;
+}
+
+/*ketu mbaron faqja 5*/
+
+
+/*fillimi faqes 6*/
+
+.faqja-6 {
+    width: 100%;
+    height: 500px;
+    display: inline-flex;
+}
+
+.faqja-6-kolonat {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 40px;
+    color: white;
+}
+
+.faqja-6-kolonat:first-child {
+    background-color: green;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+.faqja-6-kolonat h1 {
+    font-variant: small-caps;
+}
+
+.faqja-6-kolonat i {
+    color: white;
+    font-size: 60px;
+}
+
+.faqja-6-kolonat a {
+    margin-top: 40px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 20px 35px;
+    border-radius: 7px;
+    font-weight: bold;
+    transition: 0.2s ease-in;
+}
+
+.faqja-6-kolonat a:hover {
+    background-color: red;
+    color: white;
+}
+
+
+.faqja-6-kolonat:nth-child(2) {
+    background-image: url(fotografit/router.jpg);
+    background-size: cover;
+    
+}
+
+.faqja-6-kolonat:nth-child(1) + .faqja-6-kolonat {
+    transition: all 0.2s ease-in;
+}
+
+.faqja-6-kolonat:nth-child(1) + .faqja-6-kolonat:hover {
+    opacity: 0.7;
+}
+
+.faqja-6-kolonat:last-child {
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url(fotografit/faqja-4-prapavija.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*MBARIMI FAQES 6 */
+
+/*FILLIMI FAQES 7*/
+
+.faqja-7 {
+    height: 900px;
+}
+
+.ekipi-yne {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 120px;
+}
+
+.ekipi-yne-titulli {
+    width: 30%;
+}
+
+.ekipi-yne-ikonat {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.ekipi-yne-ikonat a {
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.ekipi-yne-ikonat i{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 3.5px solid gray;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+.ekipi-yne-ikonat i:hover {
+    background-color: gray;
+    color: white;
+}
+
+.ekipi-yne-foto {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.ekipi-yne-kolonat {
+    width: 30%;
+}
+
+.ekipi-yne-kolonat-foto img{
+    width: 100%;
+    height: auto;
+    transition: 0.2s ease-out;
+}
+
+.ekipi-yne-kolonat-foto img:hover {
+    opacity: 0.75;
+}
+
+.ekipi-yne-kolonat-permbajtja {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.ekipi-yne-kolonat-permbajtja h5 {
+    margin-top: -14px;
+    color: red;
+}
+
+.ekipi-yne-kolonat-ikona {
+    display: flex;
+    margin-top: 14px;
+    
+}
+
+.ekipi-yne-kolonat-ikona a {
+    text-decoration: none;
+}
+
+.ekipi-yne-kolonat-ikona i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    height: 50px;   
+    width: 50px;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.ekipi-yne-kolonat-ikona i:hover {
+    color: green;
+    background-color: white;
+}
+
+/*PERFUNDIMI FAQES 7*/
+
+/*FILLIMI FAQES 8*/
+
+.faqja-8 {
+    background-color: #dbdae3;
+    width: 100%;
+    height: 1300px;
+}
+
+
+
+.faqja-8-gazeta {
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 230px;
+    display: inline-flex;
+    margin-bottom: 0;
+}
+.faqja-8-gazeta-foto {
+    width: 65%;
+    
+}
+.faqja-8-gazeta-foto img{
+    width: 100%;
+    height: 100%;
+}
+.faqja-8-gazeta-permbajtje {
+    width: 35%;
+    height: 430px;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    background-color: green;
+    padding: 60px 40px;
+}
+
+.faqja-8-gazeta-permbajtje h2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.faqja-8-input {
+    width: 100%;
+    margin-top: 40px;
+    display: inline-flex;
+    
+}
+
+.faqja-8-input input[type=text] {
+    padding: 20px 35px;
+    width: 80%;
+}
+
+.faqja-8-input a {
+    width: 20%;
+    height: auto;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.faqja-8-input i.fa-telegram-plane {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1c38;
+    font-size: 18px;
+    transition: 0.2s ease-in-out;
+}
+
+
+.faqja-8-input i.fa-telegram-plane:hover {
+    background: none;
+    font-size: 25px;
+    color: #1f1c38;
+}
+
+.faqja-8-titulli {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: -100px;
+    
+}
+
+.faqja-8-titulli h1{
+    width: 400px;
+    text-align: center;
+}
+
+.faqja-8-artikujt {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+
+.faqja-8-kolonat {
+    width: 30%;
+    display: inline-flex;
+    flex-direction: column;
+    
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+.faqja-8-kolonat-foto-ikona {
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.faqja-8-kolonat-foto img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.faqja-8-kolonat-foto-ikona i {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    right: 10px;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+.faqja-8-kolonat-foto-ikona i:hover {
+    background: none;
+    color: red;
+    font-size: 30px;
+}
+
+.faqja-8-kolonat-ikonat {
+    width: 77%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+
+p.e-trashe {
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.faqja-8-ikonat-majtas {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.faqja-8-ikonat-majtas p {
+    padding-left: 5px;
+}
+
+.faqja-8-ikonat-djathtas {
+    display: inline-flex;
+    align-items: center;
+}
+.faqja-8-ikonat-djathtas p {
+    padding-left: 5px;
+}
+
+.faqja-8-kolonat-permbajtje {
+    background-color: white;
+    padding: 30px 20px;
+    height: 180px;
+    
+}
+
+.faqja-8-kolonat-permbajtje a{
+    
+    text-decoration: underline;
+    color: black;
+    transition: 0.4s ease-out;
+}
+
+.faqja-8-kolonat-permbajtje a:hover {
+    color: red;
+}
+
+/* MBARIMI FAQES 8 */
+
+/* FILLIMI FAQES 9 */
+
+.faqja-9 {
+    width: 100%;
+    height: 400px;
+}
+
+.faqja-9-permbajtja {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+    
+    
+}
+
+.faqja-9-ikonat img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    transition: 0.12s ease-in-out;
+}
+
+.faqja-9-ikonat img:hover {
+    opacity: 0.6;
+}
+
+/* MBARIMI FAQES 9*/
+
+/*FILLIMI FAQES 1   0*/
+
+
+.faqja-fundit {
+    width: 100%;
+    height: auto;
+    background-color: #17263d;
+}
+
+.faqja-fundit-permbajtja {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+}
+
+.faqja-fundit-kolonat {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+
+.faqja-fundit-titulli {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.faqja-fundit-kornizat {
+    display: inline-flex;
+    
+}
+
+.faqja-fundit-korniza1 {
+    width: 20%;
+    border-bottom: 3px solid red;
+}
+
+.faqja-fundit-korniza2 {
+    width: 50%;
+    border-bottom: 3px solid gray;
+}
+
+.faqja-fundit-menyt {
+    margin-top: 30px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.faqja-fundit-menyja1 {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.faqja-fundit-menyja2 {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+#faqja-fundit-menyt a {
+    text-decoration: none;
+    color: darkgrey;
+    margin-bottom: 10px;
+    transition: 0.2s ease-out;
+}
+
+#faqja-fundit-menyt a:hover {
+    color: white;
+}
+
+.faqja-fundit-kompania {
+    display: inline-flex;
+    margin-top: 40px;
+    font-family: 'Mitr', sans-serif;
+}
+
+.faqja-fundit-kompania i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: red;
+}
+
+.faqja-fundit-emri {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+    color: white;
+}
+
+.faqja-fundit-emri span:first-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.faqja-fundit-lajmet {
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+.faqja-fundit-lajmet-foto{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faqja-fundit-lajmet-foto img{
+    border-radius: 50%;
+    padding: 5px;
+    border: 3px solid grey;
+    object-fit: cover;
+    transition: 0.2s ease-in-out;
+}
+
+.faqja-fundit-lajmet-foto img:hover {
+    padding: 0;
+}
+
+.faqja-fundit-lajmet-permbajtje {
+    color: white;
+    margin-left: 10px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.faqja-fundit-lajmet-permbajtje h3 {
+    width: 70%;
+    font-size: 14px;
+}
+
+.faqja-fundit-lajmet-permbajtje p {
+    font-size: 11px;
+}
+
+.faqja-fundit-galeria {
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.faqja-fundit-galeria img {
+    padding: 10px 10px 10px 0px;
+    transition: 0.35s ease-in;
+    object-fit: cover;
+}
+
+.faqja-fundit-galeria img:hover {
+    opacity: 0.5;
+}
+
+.faqja-fundit-galeria-ikonat {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faqja-fundit-galeria-ikonat a {
+    text-decoration: none;
+}
+
+
+.faqja-fundit-galeria-ikonat i {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    color: var(--info-tekst);
+    border-radius: 50%;
+    border: 0.7px solid gray;
+    transition: all 0.2s ease;
+    
+}
+
+.faqja-fundit-galeria-ikonat i:nth-child(3) {
+    margin-left: 0;
+}
+
+.faqja-fundit-galeria-ikonat i:hover {
+    background-color: var(--info-tekst);
+    color: white;
+}
+
+.faqja-fundit-fundi{
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.faqja-fundit-fundi a {
+    text-decoration: none;
+    position: relative;
+    right: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.faqja-fundit-fundi i {
+    
+    position: relative;
+    width: 50px;
+    height: 50px;
+    
+    font-size: 17px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: 0.15s ease-in-out;
+}
+
+.faqja-fundit-fundi i:hover {
+    background: none;
+    color: red;
+    font-size: 24px;
+    
+}
+
+.korniza-zez {
+    width: 100%;
+    border: 1px inset black;
+    background-color: black;
+}
+
+.faqja-fundit-drejtat {
+    width: 100%;
+    margin-top: 20px;
+    display: inline-flex;
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+.faqja-fundit-mes {
+    width: 35%;
+    display: inline-flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.faqja-fundit-mes p {
+    padding-left: 40px;
+}
+
+@media screen and (max-width: 1500px) {
+    
+    .aplikimi {
+       
+    }
+    
+    .bllok-emri input[type=text], .bllok-emri select{
+    margin-top: 20px;
+    background-color: var(--info-hiri);
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    overflow: hidden;
+    
+    }
+    
+    
+    
+    .rresht-aplikimi {
+        flex-direction: column;
+    }
+
+    .bllok-emri select {
+        width: 240px;
+    }
+
+    
+    .faqja-4-djathtas-pershkrimi {
+        padding-bottom: 1.8rem;
+    }
+    
+    .faqja-fundit-galeria-ikonat {
+        width: 69%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    
+    .anesoret {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    
+    
+    .fa-envelope-open {
+        padding-left: 0;
+    }
+    
+    
+}
+
+/* responsiviteti per telefon*/
+
+@media screen and (max-width: 500px) {
+    
+    html, body{
+    overflow-x: hidden;
+    }
+    
+    .faqja {
+        width: 100%;
+    }
+    
+    
+    
+    .anesoret {
+        margin: 0px 0px 0px 0px;
+        
+    }
+    
+    .informata {
+        width: 100vw;
+    }
+    
+    .informata-permbajtja {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 170px;
+    }
+    
+    .permbajtja-majtas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    
+    .permbajtja {
+        justify-content: center;
+    }
+    
+    .permbajtja2 {
+        width: 70%;
+        height: auto;
+        padding-bottom: 4rem;
+    }
+    
+    .ekipi-yne-kolonat-ikona i{
+        font-size: 10px;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .navigimi-permbajtja {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .logo {
+        justify-content: center;
+    }
+    
+    .menyt-permbajtje {
+        width: 100%;
+        
+    }
+    
+    .menyt {
+        display: inline-flex;
+        justify-content: center;
+    }
+    
+    
+    
+    .logo2 {
+        width: 100%;
+        justify-content: center;
+        margin-top: 4px;
+    }
+    
+    #e-vogel {
+        font-size: 15px;
+    }
+    
+    .faqja-kryesore h1 {
+        font-size: 20px;
+    }
+    
+    .faqja-kryesore p {
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    .faqja-dyt {
+        height: 3000px;
+    }
+    
+    .faqja-dyt-permbajtja {
+        display: grid;
+        grid-template-columns: 1.5fr 0.6fr 1fr 1fr;
+        grid-template-rows: 1fr 0.4fr 1.6fr;
+        gap: 0px 0px;
+        grid-template-areas:
+        "foto . . ."
+        "bllok . . ."
+        "aplikimi . . .";
+}
+    .foto { grid-area: foto; }
+    .bllok { grid-area: bllok; }
+    .aplikimi { grid-area: aplikimi; }
+    
+    .foto {
+        background-size: cover;
+        width: 100vw;
+    }
+    
+    .rresht-aplikimi, .rresht-permbajtja {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .rresht-permbajtja {
+        
+        justify-content: center;
+    }
+    
+    .foto2 {
+        max-width: 100px;
+    }
+    
+    .rresht-permbajtja p {
+        width: 90%;
+        height: 60%;
+        font-size: 13px;
+    }
+    
+    .faqja-dyt-permbajtja-dy {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 50%;
+    }
+    
+    .sherbimet {
+        max-height: 2000px;
+        height: 2000px;
+    }
+    
+    .sherbimet-njoftim {
+        display: flex;
+        position: relative;
+        font-size: 12px;
+    }
+    
+    .sherbimet-njoftim h1 {
+        height: 100px;
+        width: 50%;
+    }
+    
+    .kolona-vazhdo-majtas, .kolona-vazhdo-djathtas {
+        display: none;
+    }
+    
+    .sherbimet-kolonat {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 550px;
+    }
+    
+    .faqja-4 {
+        height: 1300px;
+    }
+    
+    .faqja-4-bllok {
+        width: 100%;
+    }
+    
+    .faqja-4-foto-njoftimi {
+        margin-left: 0;
+    }
+    
+    
+    .faqja-5 {
+        height: 1600px;
+    }
+    
+    .faqja-5-titulli h1 {
+        font-size: 18px;
+    }
+    
+    .faqja-5-permbajtja {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .faqja-5-kolonat {
+        width: 100%;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .faqja-5-fotografit {
+        width: 100%;
+    }
+    
+    .faqja-5-klientet-pershkrimi {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .faqja-5-klientet-pershkrimi p{
+        display: inline-flex;
+        flex-direction: row;
+        
+    }
+    
+    .pozicionimi {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    
+    .faqja-4-bllok:last-child {
+        width: 90%;
+        
+    }
+    
+    .faqja-6 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    
+    .faqja-6-kolonat {
+        width: 100%;
+        max-width: 420px;
+        height: 300px;
+        padding-left: 0;
+    }
+    
+    .faqja-8 {
+        height: auto;
+        max-height: 3500px;
+    }
+    
+   
+    
+    .faqja-8-gazeta {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .faqja-8-gazeta-foto {
+        width: 100%;
+    }
+    
+    .faqja-8-gazeta-permbajtje {
+        width: 78%;
+    }
+    
+    .faqja-8-artikujt {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .faqja-8-kolonat, .faqja-8-kolonat-foto, .faqja-8-kolonat-permbajtje, faqja-8-kolonat-ikonat{
+        width: 100%;
+    }
+    
+    .kolona-informative {
+        width: 50%;
+    }
+    
+    .faqja-9-permbajtja {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .faqja-9-permbajtja img {
+        margin-bottom: 30px;
+        
+    }
+    
+    .faqja-9 {
+        height: 790px;
+    }
+    
+    .faqja-fundit-permbajtja {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .faqja-fundit-kolonat {
+        width: 100%;
+        display: flex;
+        margin-left: 50px;
+        margin-right: auto;
+    }
+    
+    .faqja-fundit-fundi{
+        width: 100%;
+        margin-left: 20px;
+    }
+    
+    .faqja-fundit-mes {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    
+}
+
+/*ANIMACIONET */
+
+@keyframes majtas {
+    0% {
+        transform: translateX(-100px);
+    }
+    
+    
+    
+    100% {
+        transform: translateX(0px);
+    }
+    
+}
+
+@keyframes djathas {
+    0% {
+        transform: translateX(100px);
+        
+        
+    }
+    
+    100% {
+        transform: translateY(0px);
+        
+    }
+}
+
+@keyframes posht {
+    0% {
+        transform: translateY(30px);
+    }
+    
+    100% {
+        transform: translateY(0px);
+    }
+}
