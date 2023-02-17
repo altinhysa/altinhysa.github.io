@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css" integrity="sha512-8Vtie9oRR62i7vkmVUISvuwOeipGv8Jd+Sur/ORKDD5JiLgTGeBSkI3ISOhc730VGvA5VVQPwKIKlmi+zMZ71w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="hero">
+        <div class="container">
+            <div id="myNav" class="overlay--menu">
+                <div class="overlay--flex-nav">
+                    <a href="javascript:void(0)" class="close--btn" onclick="closeNav()">Close X</a>
+                </div>
+                <div class="overlay--nav">
+                    <a href="#about" onclick="closeNav()">About Me</a>
+                    <a href="#projects" onclick="closeNav()">Projects</a>
+                    <a href="#clients" onclick="closeNav()">Clients</a>
+                    <a href="#footer" onclick="closeNav()">Contact</a>
+                </div>
+            </div>
+            <div class="menu--nav">
+
+            </div>
+            <div class="straight--line hidden"></div>
+            <div class="flex hero--content hidden">
+                <div class="col my--name">
+                    <h1>Altin</h1>
+                    <a href="#about">About me <i class="fa-solid fa-turn-down"></i></a>
+                </div>
+                <div class="col my--image"><img  src="./images/image0.jpg" alt=""></div>
+                <div class="col my--surname">
+                    <div class="my--surname-content">
+                        <h1>Hysa</h1>
+
+                        <p>Innovative Young Programmer, striving to learn progressively about programming and software 
+                            development in general.</p>
+                    </div>
+                    <button class="button menu-btn" onclick="openNav()">Menu <i class="fa-solid fa-bars"></i></button>
+
+                </div>
+            </div>
+            <div class="straight--line hidden"></div>
+        </div>
+    </div>
+    
+    <section class="about" id="about">
+        <div class="container">
+            <div class="flex">
+                <div class="about--me hidden">
+                    <p>My name is Altin Hysa and I am a 19-year-old innovative young programmer with a passion for software development and web design. <br>As a first-year student at Cacttus Education, I am currently studying Web and Mobile Development, and I am eager to learn more about programming and software development in general.
+
+                    </p>
+                    <a href="#" class="button about-btn">Learn More <i class="fa-solid fa-arrow-down-right"></i></a>
+                </div>
+                <div class="about--skills ">
+                    <div class="about--skills-title hidden">
+                        <h3>Skills</h3>
+                    </div>
+                    <div class="about--skills-body hidden">
+                        <div class="skills--item">
+                            <div class="skills--item-flex">
+                                <h4>HTML CSS</h4>
+                                <h4>95%</h4>
+                            </div>
+                            <div class="skills--progress"></div>
+                        </div>
+                        <div class="skills--item">
+                            <div class="skills--item-flex">
+                                <h4>JavaScript</h4>
+                                <h4>50%</h4>
+                            </div>
+                            <div class="skills--progress"></div>
+                        </div>
+                        <div class="skills--item">
+                            <div class="skills--item-flex">
+                                <h4>Java Fundamentals</h4>
+                                <h4>90%</h4>
+                            </div>
+                            <div class="skills--progress"></div>
+                        </div>
+                        <div class="skills--item">
+                            <div class="skills--item-flex">
+                                <h4>Bootstrap</h4>
+                                <h4>70%</h4>
+                            </div>
+                            <div class="skills--progress"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="straight--line hidden"></div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h1 class="projects--title hidden"><i class="fa-solid fa-turn-down"></i> My Projects</h1>
+        
+            <div class="my--projects hidden">
+                <div class="first--project">
+                    <div class="project--img">
+                        <img src="./images/project1.jpg" alt="">
+                    </div>
+                    <div class="project--details">
+                        <p><span class="accent">LATULIPE</span> - Restaurant</p>
+                    </div>
+                </div>
+                <div class="second--project">
+                    <div class="project--img">
+                        <img src="./images/project1.webp" alt="">
+                    </div>
+                    <div class="project--details">
+                        <p><span class="accent">5 POINTS</span> - Ecommerce Shop</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="straight--line"></div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-title hidden">
+                <h1>Let's work together</h1>
+                <i class="fa-solid fa-turn-up"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.height = "100vh";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+</body>
+</html>
